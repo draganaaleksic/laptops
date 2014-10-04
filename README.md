@@ -36,6 +36,7 @@ Enlive is a selector-based (à la CSS) templating library for Clojure.
 https://github.com/cgrand/enlive
 
 Valip
+
 dependency - [com.cemerick/valip "0.3.2"] Valip is a validation library for Clojure. It is primarily designed to validate keyword-string maps, such as one might get from a HTML form.
 https://github.com/cemerick/valip
 

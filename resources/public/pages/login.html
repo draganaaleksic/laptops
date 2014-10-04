@@ -1,0 +1,29 @@
+<form action="/login" method="post" id="login-form" novalidate>
+	<table>
+		<tr>
+			<td><label for="email">email</label></td>
+			<td><input name="email" id="email" type="text" value="" require></td>
+		</tr>
+		<tr>
+			<td><label for="password">password</label></td>
+			<td><input name="password" id="password" type="password"
+				value="" require></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input name="submit" type="submit" id="submit" value="Login"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><div>
+					<a href="/forgot-password">forgot password?</a>
+				</div>
+				<div>
+					<a id="register" href="/register">register</a>
+				</div></td>
+		</tr>
+		<tr>
+			<td colspan="2" id="error-msgs"></td>
+		</tr>
+	</table>
+</form>

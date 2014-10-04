@@ -1,0 +1,108 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: #5881d8;
+	color: #fff;
+}
+
+div.topcontent {
+	width: 900px;
+	background-color: #fff;
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px;
+}
+
+div.navigation {
+	width: 900px;
+	background-color: #91dc47;
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+
+div.navigation table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.navigation a {
+	text-decoration: none;
+	color: #fff;
+}
+
+div.navigation a:hover {
+	text-decoration: none;
+	color: #63b132;
+}
+div.one-item{
+	background-color:#fff
+	
+}
+
+div.maincontent {
+	display: inline-block;
+	width: 890px;
+	background-color: #90b4fe;
+	border-radius: 15px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+input,textarea,select {
+	color: #fff;
+	background-color: #91dc47;
+	border: solid 2px #fff;
+	display: inline-block;
+	width: 200px;
+	outline: none;
+	border-radius: 4px;
+	/*  box-shadow: inset 1px 1px 2px #ddd8dc;*/
+}
+
+input#submit,input[type="button"] {
+	width: auto !important;
+}
+
+div.footer {
+	padding: 5px;
+	text-align: center;
+	background-color: #91dc47;
+	border-radius: 15px;
+	color: #fff;
+	height: 50px;
+}
+
+div.login,div.forgot, div.register {
+	background-color: #90b4fe;
+	border-radius: 15px;
+	border: solid 5px #fff;
+	position: absolute;
+	left: 50%;
+	margin: -100px 0 0 -190px;
+	padding: 5px;
+	top: 50%;
+	text-align: right;
+}
+
+div.home {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+td#error-msgs div.help, td#error-msgs2 div.help {
+	display: list-item;
+	list-style-type: circle;
+	list-style-position: inside;
+	text-align: left;
+}
+
+div.page-not-found {
+	background-color: #91dc47;
+	border-radius: 15px;
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+}
